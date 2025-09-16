@@ -3,44 +3,49 @@
 <link rel="stylesheet" href="calc.css" type="text/css">
 
     <body>
-        <header>
-            <h1> Lina's Java Script Calculator </h1>
-            <p></p>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../exp/exp.html">Experiences</a></li>
-                <li><a href="../../edu/edu.html">Education</a></li>
-                <li><a href="../../ref/ref.html">References</a></li>
-                <li><a href="../../certs/certs.html">Certs</a></li>
-                <li><a href="../../projects/proj.html">Projects</a></li>
-                <li><a href="../../extracurriculars/extra.html">Extracurriculars</a></li>
-            </ul>
-        </nav>
-    <main>
-        <div class="calc-container">
-        <div class="inputs">
-            <input type="number" id="first-number" placeholder="First number">
-            <input type="number" id="second-number" placeholder="Second number">
-        </div>
+        <div id="page-wrapper"></div>
+            <header>
+                <h1> Lina's Java Script Calculator </h1>
+                <p></p>
+            </header>
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../../exp/exp.html">Experiences</a></li>
+                        <li><a href="../../edu/edu.html">Education</a></li>
+                        <li><a href="../../ref/ref.html">References</a></li>
+                        <li><a href="../../certs/certs.html">Certs</a></li>
+                        <li><a href="../../projects/proj.html">Projects</a></li>
+                        <li><a href="../../extracurriculars/extra.html">Extracurriculars</a></li>
+                    </ul>
+                </nav>
+            
+                <main>
+                    <div class="calc-container">
+                    <div class="inputs">
+                        <input type="number" id="first-number" placeholder="First number">
+                        <input type="number" id="second-number" placeholder="Second number">
+                    </div>
 
-        <div class="buttons">
-            <button onclick="doAdd()">+</button>
-            <button onclick="doSubtract()">-</button>
-            <button onclick="doMultiply()">*</button>
-            <button onclick="doDivide()">/</button>
-            <button onclick="doPower()">**</button>
-            <button onclick="doClear()">Clear</button>
-        </div>
+                    <div class="buttons">
+                        <button onclick="doAdd()">+</button>
+                        <button onclick="doSubtract()">-</button>
+                        <button onclick="doMultiply()">*</button>
+                        <button onclick="doDivide()">/</button>
+                        <button onclick="doPower()">**</button>
+                        <button onclick="doClear()">Clear</button>
+                    </div>
 
-        <div class="output-box">
-            <h3 id="output"></h3>
+                    <div class="output-box">
+                        <h3 id="output"></h3>
+                    </div>
+                    </div>
+            </div>
+        </main>
+            <footer>
+                <p> All rights reserved by Lina Park <a>Credits</a> &#169;</p>
+            </footer>
+            <script src="../../js/script.js"></script>
         </div>
-        </div>
-    </main>
-        <footer>
-            <p> All rights reserved by Lina Park <a>Credits</a> &#169;</p>
-        </footer>
-        <script src="../../js/script.js"></script>
     </body>
