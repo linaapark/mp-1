@@ -70,7 +70,7 @@ nav ul{
 /*background, color, size, borders, padding*/
 nav li{
     width: 80%;
-    margin: 30% auto;
+    margin: 10% auto;
     background: white;
     text-align: center;
 }
@@ -78,6 +78,7 @@ nav li{
 /*text in blocks*/
 /*rid of underline*/
 nav a{
+    padding: 5% 10%;
     color: #737eaf;
     text-decoration: none;
     justify-content: center;
