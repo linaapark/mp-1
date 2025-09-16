@@ -5,10 +5,8 @@
 
 #page-wrapper{
     width: 80vw;
-    background-color: #362415;
+    background-color: #F2F1EF;
     text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
 }
 
 #container{
@@ -21,27 +19,34 @@
 }
 
 header, footer{
-    background-color: #362415;
+    background-color: #F2F1EF;
 }
 
+/*wrap a block of navigation list*/
 nav{
-    background-color: #DCC2C4;
+    background-color: #F2F1EF;
     width: 30%;
     display: flex;
     justify-content: center;
     padding: 4px 6px;
 }
 
+/*unordered list inside nav*/
+/*container of list items*/
 nav ul{
-    list-style: none;
+    list-style: none; /*remove buller points*/
     width: 80%;
     margin: 0 auto;
     padding: 0;
-    display: flex;
+
+    display: flex; /*makes it horizontal or vertical*/
     flex-direction: column;
 }
 
+/*targets each item inside nav ul*/
+/*background, color, size, borders, padding*/
 nav li{
+    display: flex;
     border: 5px solid #DCC2C4;
     border-radius: 50%;
     padding: 2%;
@@ -50,16 +55,17 @@ nav li{
     padding: 4px 6px;
     border: 3px solid #DCC2C4;
     border-radius: 0px;
-    background-color: #362415;
+    background-color: white;
     color: #DCC2C4;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
 }
 
+/*text in blocks*/
 /*rid of underline*/
 nav a{
-    color:red;
+    color: #737eaf;
     text-decoration: none;
     justify-content: center;
     align-items: center;
