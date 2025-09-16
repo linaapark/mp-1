@@ -6,7 +6,7 @@
 
 #page-wrapper{
     width: 80vw;
-    background-color: #0B421A;
+    background-color: #362415;
     margin: 0 auto;
     text-align: center;
 }
@@ -17,6 +17,7 @@
     flex-direction: row;
     width: 100%;
     /*color*/
+    background-color: white;
 }
 
 header, footer{
@@ -24,7 +25,7 @@ header, footer{
 }
 
 nav{
-    background-color: white;
+    background-color: #0B421A;
     width: 30%;
     display: flex;
     justify-content: center;
