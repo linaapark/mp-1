@@ -92,7 +92,8 @@ main p {
     text-align: center;              /* centering */
     line-height: 1.6;                /* line spacing to make the website more fulling*/
     margin: 20px auto;               /* spacing around paragraph */
-    max-width: 800px;                
+    max-width: 800px;    
+    color: #737eaf;            
 }
 
 @media screen and (max-width: 1000px) {
