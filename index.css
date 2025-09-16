@@ -29,6 +29,7 @@ nav{
     width: 30%;
     display: flex;
     justify-content: center;
+    padding: 4px 6px;
 }
 
 /*lets get rid of hidden section space for bullets 
@@ -37,7 +38,7 @@ nav ul{
     padding-left: 0;
     list-style: none;
     width: 80%;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +47,7 @@ nav ul{
 nav li{
     border: 5px solid #DCC2C4;
     border-radius: 50%;
-    padding: 2%;
+    padding: 0%;
     width: 80%;
 }
 
@@ -76,4 +77,20 @@ main{
         /*when we move to mobile view we need horizontal nav*/
     }
 
-    nav 
+    nav ul{
+        flex-direction: row;
+
+    }
+}
+
+#image{
+    margin-top:-10px;
+    padding-bottom: 20px;
+}
+
+img{
+    max-width:30%;
+    height: 30%;
+    border:10px double #362415
+}
+
