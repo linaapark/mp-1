@@ -1,7 +1,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: #362415;
 }
 
 #page-wrapper{
@@ -21,11 +20,11 @@
 }
 
 header, footer{
-    background-color: #0B421A;
+    background-color: #DCC2C4;
 }
 
 nav{
-    background-color: #0B421A;
+    background-color: #DCC2C4;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -44,7 +43,7 @@ nav ul{
 }
 
 nav li{
-    border: 5px solid white;
+    border: 5px solid #DCC2C4;
     border-radius: 50%;
     padding: 2%;
     width: 80%;
