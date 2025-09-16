@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0%;
     box-sizing: border-box;
 }
 
@@ -20,6 +20,20 @@
 
 header, footer{
     background-color: #F2F1EF;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #737eaf;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #737eaf;
+    text-align: center;
 }
 
 /*wrap a block of navigation list*/
