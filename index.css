@@ -19,8 +19,12 @@
     background-color: white;
 }
 
-header, footer{
+header{
     background-color: #F2F1EF;
+}
+
+footer{
+    background-color: white;
 }
 
 header h1 {
