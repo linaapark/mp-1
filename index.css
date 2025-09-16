@@ -25,20 +25,27 @@ header, footer{
 }
 
 nav{
-    background-color: #362415;
+    background-color: #DCC2C4;
     width: 30%;
     display: flex;
     justify-content: center;
+    padding: 4px 6px;
 }
 
-/*lets get rid of hidden section space for bullets 
-because then we cannot. cente*/
 nav ul{
     list-style: none;
     width: 80%;
     margin: 0 auto;
-    display: block;
+    padding: 0;
+    display: flex;
     flex-direction: column;
+}
+
+nav li{
+    border: 5px solid #DCC2C4;
+    border-radius: 50%;
+    padding: 2%;
+    width: 80%;
     align-items: center;
     padding: 4px 6px;
     border: 3px solid #DCC2C4;
@@ -50,16 +57,12 @@ nav ul{
     text-decoration: none;
 }
 
-nav li{
-    border: 5px solid #DCC2C4;
-    border-radius: 50%;
-    padding: 2%;
-    width: 80%;
-}
-
 /*rid of underline*/
 nav a{
+    color:red;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 /*we want a full page push footer down
