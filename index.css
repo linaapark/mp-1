@@ -34,14 +34,21 @@ nav{
 /*lets get rid of hidden section space for bullets 
 because then we cannot. cente*/
 nav ul{
-    padding-left: 0;
-    padding-right: 0;
     list-style: none;
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: block;
+    padding: 4px 6px;
+    border: 3px solid #DCC2C4;
+    border-radius: 0px;
+    background-color: #362415;
+    color: #DCC2C4;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav li{
@@ -53,15 +60,6 @@ nav li{
 
 /*rid of underline*/
 nav a{
-    text-decoration: none;
-    display: block;
-    padding: 4px 6px;
-    border: 3px solid #DCC2C4;
-    border-radius: 0px;
-    background-color: #362415;
-    color: #DCC2C4;
-    font-weight: 700;
-    text-align: center;
     text-decoration: none;
 }
 
