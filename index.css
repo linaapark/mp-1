@@ -70,7 +70,7 @@ nav ul{
 /*background, color, size, borders, padding*/
 nav li{
     width: 80%;
-    margin: 15% auto;
+    margin: 10% auto;
     background: white;
     text-align: center;
 }
@@ -89,9 +89,8 @@ make main bigger << Safetest solution
 */
 
 main{
-    height: auto;
+    height: 100vh;
     width: 70%;
-    min_height: 100vh;
 }
 
 main p {
