@@ -76,4 +76,20 @@ main{
         /*when we move to mobile view we need horizontal nav*/
     }
 
-    nav 
+    nav ul{
+        flex-direction: row;
+
+    }
+}
+
+#image{
+    margin-top:-10px;
+    padding-bottom: 20px;
+}
+
+img{
+    max-width:30%;
+    height: auto;
+    border:10px double #362415
+}
+
