@@ -29,21 +29,19 @@ footer{
 
 header h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
+    font-size: calc(2px + 120%);
     color: #737eaf;
     text-align: center;
 }
 
 header p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
     color: #737eaf;
     text-align: center;
 }
 
 footer p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
     color: #737eaf;
     text-align: center;
 }
@@ -54,7 +52,6 @@ nav{
     width: 30%;
     display: flex;
     justify-content: center;
-    padding: 4px 6px;
 }
 
 /*unordered list inside nav*/
@@ -73,8 +70,7 @@ nav ul{
 /*background, color, size, borders, padding*/
 nav li{
     width: 80%;
-    margin: 10px auto;
-    padding: 10px 20px;
+    margin: 10% auto;
     background: white;
     text-align: center;
 }
@@ -98,20 +94,29 @@ main{
 }
 
 main p {
-    font-family: 'Times New Roman', Times, serif;  
-    font-size: 20px;                  
+    font-family: 'Times New Roman', Times, serif;                    
     text-align: center;              /* centering */
     line-height: 1.6;                /* line spacing to make the website more fulling*/
-    margin: 20px auto;               /* spacing around paragraph */
-    max-width: 800px;    
+    margin: 10% auto;               /* spacing around paragraph */  
     color: #737eaf;            
 }
 
 main li {
     color: #737eaf;      
-    margin: 20px;    
-    line-height: 1.5; 
-    font-size: 18px;     
+    margin: 10% auto;    
+    line-height: 1.5;    
+}
+
+#image{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2%;
+}
+
+img{
+    max-width:30%;
+    height: auto;
 }
 
 @media screen and (max-width: 1000px) {
@@ -127,20 +132,5 @@ main li {
 
     nav ul{
         flex-direction: row;
-
     }
 }
-
-#image{
-    display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center;     /* vertical centering if container has height */
-    padding: 20px;
-}
-
-img{
-    max-width:30%;
-    height: auto;
-    border:10px double #737eaf
-}
-
