@@ -86,6 +86,15 @@ main{
     width: 70%;
 }
 
+main p {
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 18px;                 
+    text-align: center;              /* centering */
+    line-height: 1.6;                /* line spacing to make the website more fulling*/
+    margin: 20px auto;               /* spacing around paragraph */
+    max-width: 800px;                
+}
+
 @media screen and (max-width: 1000px) {
      #container{
         flex-direction: column;
