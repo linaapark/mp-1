@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#page-wrapper{
+    width: 80vw;
+    background-color: lightblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container{
+    /*in a row*/
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    /*color*/
+}
+
+header, footer{
+    background-color: lightgoldenrodyellow;
+}
+
+nav{
+    background-color: azure;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+/*lets get rid of hidden section space for bullets 
+because then we cannot. cente*/
+nav ul{
+    padding-left: 0;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 2%;
+    width: 80%;
+}
+
+/*rid of underline*/
+nav a{
+    text-decoration: none;
+}
+
+/*we want a full page push footer down
+make main bigger << Safetest solution
+*/
+
+main{
+    height: 100vh;
+    /**/
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+     #container{
+        flex-direction: column;
+    }
+
+    nav{
+        height: 100vh;
+        width: 100%;
+
+        /*when we move to mobile view we need horizontal nav*/
+    }
+
+    nav ul{
+        flex-direction: row;
+
+    }
+}
