@@ -50,6 +50,7 @@ footer p {
 nav{
     background-color: #F2F1EF;
     width: 30%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -70,7 +71,7 @@ nav ul{
 /*background, color, size, borders, padding*/
 nav li{
     width: 80%;
-    margin: 10% auto;
+    margin: 20% auto;
     background: white;
     text-align: center;
 }
