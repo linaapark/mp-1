@@ -6,7 +6,7 @@
 
 #page-wrapper{
     width: 80vw;
-    background-color: lightblue;
+    background-color: #0B421A;
     margin: 0 auto;
     text-align: center;
 }
@@ -20,11 +20,11 @@
 }
 
 header, footer{
-    background-color: lightgoldenrodyellow;
+    background-color: #0B421A;
 }
 
 nav{
-    background-color: azure;
+    background-color: white;
     width: 30%;
     display: flex;
     justify-content: center;
