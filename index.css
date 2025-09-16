@@ -36,6 +36,13 @@ header p {
     text-align: center;
 }
 
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #737eaf;
+    text-align: center;
+}
+
 /*wrap a block of navigation list*/
 nav{
     background-color: #F2F1EF;
@@ -82,7 +89,6 @@ make main bigger << Safetest solution
 
 main{
     height: 100vh;
-    /**/
     width: 70%;
 }
 
