@@ -104,8 +104,10 @@ main{
 }
 
 #image{
-    margin-top:-10px;
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;     /* vertical centering if container has height */
+    padding: 20px;
 }
 
 img{
