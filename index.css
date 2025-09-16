@@ -94,8 +94,7 @@ main{
 
 main p {
     font-family: 'Times New Roman', Times, serif;  
-    font-size: 20px;       
-    font-weight: 500;            
+    font-size: 20px;                  
     text-align: center;              /* centering */
     line-height: 1.6;                /* line spacing to make the website more fulling*/
     margin: 20px auto;               /* spacing around paragraph */
