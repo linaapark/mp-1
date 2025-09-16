@@ -132,5 +132,13 @@ img{
 
     nav ul{
         flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    nav li{
+        flex: 1;
+        width: auto;
+        margin: 0;
     }
 }
