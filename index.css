@@ -16,15 +16,15 @@
     flex-direction: row;
     width: 100%;
     /*color*/
-    background-color: white;
+    background-color: #DCC2C4;
 }
 
 header, footer{
-    background-color: #DCC2C4;
+    background-color: #362415;
 }
 
 nav{
-    background-color: #DCC2C4;
+    background-color: #362415;
     width: 30%;
     display: flex;
     justify-content: center;
