@@ -46,10 +46,4 @@ function doClear() {
 }
 
 function showResult(result) {
-    output.innerHTML = String(result);
-    if (result < 0) {
-        output.style.color = "red";
-    } else {
-        output.style.color = "black";
-    }
-}
+    output.
