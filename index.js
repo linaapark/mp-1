@@ -33,7 +33,7 @@ function division() {
 
 function power() {
     let first=document.getElementById("first-number").value;
-    let second=document.getElementById("second-numberr").value;
+    let second=document.getElementById("second-number").value;
     let base = Number(first);
     let exp = Number(second);
     let result = 1;
@@ -44,11 +44,11 @@ function power() {
 }
 
 function clear() {
-    let first=document.getElementById("first-number").value;
-    let second=document.getElementById("second-number").value;
+    let first=document.getElementById("first-number");
+    let second=document.getElementById("second-number");
     let output=document.getElementById("output");
-    first = "";
-    second = "";
-    output.innerHTML = "";
+    first.value = "";
+    second.value = "";
+    output.value = "";
     output.style.color = "black";
 }

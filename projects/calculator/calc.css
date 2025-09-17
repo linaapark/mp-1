@@ -72,4 +72,101 @@ nav li{
     width: 80%;
     margin: 10% auto;
     background: white;
-   
+    text-align: center;
+}
+
+/*text in blocks*/
+/*rid of underline*/
+nav a{
+    color: #737eaf;
+    text-decoration: none;
+    align-items: center;
+}
+
+/*we want a full page push footer down
+make main bigger << Safetest solution
+*/
+
+main{
+    height: 100vh;
+    width: 70%;
+}
+
+main p {
+    font-family: 'Times New Roman', Times, serif;                    
+    text-align: center;              /* centering */
+    margin: 2% auto;               /* spacing around paragraph */  
+    color: #737eaf;            
+}
+
+main li {
+    color: #737eaf;      
+    margin: 1% auto;    
+    line-height: 1.5;    
+}
+
+/* Center the calculator */
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  background-color: #737eaf;
+  font-family: Arial, sans-serif;
+}
+
+/* Inputs */
+.inputs input {
+  padding: 0.5em;
+  margin: 0.3em;
+  font-size: 1em;
+  border-radius: 0.4em;
+}
+
+/* Buttons */
+.buttons button {
+  margin: 0.3em;
+  padding: 0.6em 1em;
+  font-size: 1.1em;
+  background-color: white;
+  color: #737eaf;
+  border: none;
+  border-radius: 0.4em;
+}
+
+/* Output box */
+.output-box {
+  margin-top: 1.2em;
+  padding: 1em;
+  border-radius: 0.4em;
+  background-color: white;
+}
+
+#output {
+  font-size: 1.5em;
+  color: #737eaf;
+}
+
+
+@media screen and (max-width: 1000px) {
+     #container{
+        flex-direction: column;
+    }
+
+    nav{
+        height: 100vh;
+        width: 100%;
+        /*when we move to mobile view we need horizontal nav*/
+    }
+
+    nav ul{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    nav li{
+        flex: 1;
+        width: auto;
+        margin: 0;
+    }
+}
