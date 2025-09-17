@@ -1,14 +1,13 @@
 *{
-    margin: 0;
+    margin: 0%;
     box-sizing: border-box;
 }
 
 #page-wrapper{
     width: 80vw;
-    background-color: #362415;
-    text-align: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    background-color: #F2F1EF;
+    text-align: left;
+    margin: 0 auto;
 }
 
 #container{
@@ -17,42 +16,71 @@
     flex-direction: row;
     width: 100%;
     /*color*/
-    background-color: #DCC2C4;
+    background-color: white;
 }
 
-header, footer{
-    background-color: #362415;
+header{
+    background-color: #F2F1EF;
 }
 
+footer{
+    background-color: white;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(2px + 120%);
+    color: #737eaf;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #737eaf;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #737eaf;
+    text-align: center;
+}
+
+/*wrap a block of navigation list*/
 nav{
-    background-color: #362415;
+    background-color: #F2F1EF;
     width: 30%;
     display: flex;
     justify-content: center;
 }
 
-/*lets get rid of hidden section space for bullets 
-because then we cannot. cente*/
+/*unordered list inside nav*/
+/*container of list items*/
 nav ul{
-    padding-left: 0;
-    list-style: none;
+    list-style: none; /*remove buller points*/
     width: 80%;
     margin: 0 auto;
-    display: flex;
+    padding: 0;
+
+    display: flex; /*makes it horizontal or vertical*/
     flex-direction: column;
-    align-items: center;
 }
 
+/*targets each item inside nav ul*/
+/*background, color, size, borders, padding*/
 nav li{
-    border: 5px solid #DCC2C4;
-    border-radius: 50%;
-    padding: 2%;
     width: 80%;
+    margin: 10% auto;
+    background: white;
+    text-align: center;
 }
 
+/*text in blocks*/
 /*rid of underline*/
 nav a{
+    color: #737eaf;
     text-decoration: none;
+    align-items: center;
 }
 
 /*we want a full page push footer down
@@ -61,8 +89,32 @@ make main bigger << Safetest solution
 
 main{
     height: 100vh;
-    /**/
     width: 70%;
+}
+
+main p {
+    font-family: 'Times New Roman', Times, serif;                    
+    text-align: center;              /* centering */
+    margin: 2% auto;               /* spacing around paragraph */  
+    color: #737eaf;            
+}
+
+main li {
+    color: #737eaf;      
+    margin: 1% auto;    
+    line-height: 1.5;    
+}
+
+#image{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2%;
+}
+
+img{
+    max-width:30%;
+    height: auto;
 }
 
 @media screen and (max-width: 1000px) {
@@ -78,6 +130,13 @@ main{
 
     nav ul{
         flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
 
+    nav li{
+        flex: 1;
+        width: auto;
+        margin: 0;
     }
 }
