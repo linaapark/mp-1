@@ -2,11 +2,12 @@ let one = document.getElementById("one");
 let two = document.getElementById("two");
 let output = document.getElementById("output");
 
-function doAdd(){
-    output.innerHTML=String(Number(one.value)+Number(two.value));
-    showResult(result);
+function addition() {
+    let first=document.getElementById("first-number").value;
+    let second=document.getElementById("first-number").value;
+    let result=Number(first)+Number(second);
+    document.getElementById("output").innerHTML=String(result)
 }
-
 function doSubtract() {
     let result = Number(one.value) - Number(two.value);
     showResult(result);
