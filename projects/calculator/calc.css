@@ -105,17 +105,47 @@ main li {
     line-height: 1.5;    
 }
 
-#image{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding: 2%;
+/* Center the calculator */
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  background-color: #737eaf;
+  font-family: Arial, sans-serif;
 }
 
-img{
-    max-width:30%;
-    height: auto;
+/* Inputs */
+.inputs input {
+  padding: 0.5em;
+  margin: 0.3em;
+  font-size: 1em;
+  border-radius: 0.4em;
 }
+
+/* Buttons */
+.buttons button {
+  margin: 0.3em;
+  padding: 0.6em 1em;
+  font-size: 1.1em;
+  background-color: white;
+  color: #737eaf;
+  border: none;
+  border-radius: 0.4em;
+}
+
+/* Output box */
+.output-box {
+  margin-top: 1.2em;
+  padding: 1em;
+  border-radius: 0.4em;
+  background-color: white;
+}
+
+#output {
+  font-size: 1.5em;
+  color: #737eaf;
+}
+
 
 @media screen and (max-width: 1000px) {
      #container{
