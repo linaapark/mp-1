@@ -32,4 +32,23 @@ function division() {
 }
 
 function power() {
-    let first=doc
+    let first=document.getElementById("first-number").value;
+    let second=document.getElementById("second-number").value;
+    let base = Number(first);
+    let exp = Number(second);
+    let result = 1;
+    for (let i = 0; i < exp; i++) {
+        result *= base;
+    }
+    document.getElementById("output").innerHTML=String(result)
+}
+
+function clear() {
+    let first=document.getElementById("first-number");
+    let second=document.getElementById("second-number");
+    let output=document.getElementById("output");
+    first.value = "";
+    second.value = "";
+    output.value = "";
+    output.style.color = "black";
+}
